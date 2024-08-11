@@ -1,0 +1,10 @@
+.nav-container {
+  background-color: #f1f5f9;
+  padding: 10px;
+}
+
+.image-element {
+  height: 30px;
+  width: 100px;
+  margin-left: 5%;
+}

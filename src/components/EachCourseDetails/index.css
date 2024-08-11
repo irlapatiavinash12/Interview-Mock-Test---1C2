@@ -1,0 +1,83 @@
+.Each-course-main-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.detailed-content-container {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  box-shadow: 1px 1px 4px black;
+}
+
+.loader-style {
+  align-self: center;
+}
+
+.renderfailure-styling {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-image {
+  height: 300px;
+  width: 500px;
+}
+
+.failure-title-text {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.failure-descripton {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.retry-button {
+  height: 40px;
+  background-color: #4656a1;
+  border: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #e8e8e8;
+  border-radius: 5px;
+}
+
+.detailed-course-thumbnail {
+  height: 100%;
+  width: 40%;
+  margin-right: 10px;
+}
+
+.detail-info-styling {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.detail-title {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.detail-description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  flex-shrink: 1;
+}
